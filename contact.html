@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contact.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contact_container">
+      <div class="contact_text">
+        <div class="contact_line"></div>
+        <h3 class="subhead">Contact Us</h3>
+        <h1 class="display-2 display-2--light">
+          Reach out for a new project or just say hello
+        </h1>
+      </div>
+      <div class="contact_info">
+        <div class="contact-primary">
+          <h3 class="h6">Send Us A Message</h3>
+          <form
+            name="contactForm"
+            id="contactForm"
+            method="post"
+            action="index.html"
+            novalidate="novalidate"
+          >
+            <fieldset>
+              <div class="form-field">
+                <input
+                  name="contactName"
+                  type="text"
+                  id="contactName"
+                  placeholder="Your Name"
+                  value=""
+                  minlength="2"
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactEmail"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Your Email"
+                  value=""
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactSubject"
+                  type="text"
+                  id="contactSubject"
+                  placeholder="Subject"
+                  value=""
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <textarea
+                  name="contactMessage"
+                  id="contactMessage"
+                  placeholder="Your Message"
+                  rows="10"
+                  cols="50"
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <button class="full-width btn--primary">Submit</button>
+              </div>
+            </fieldset>
+          </form>
+
+          <div class="message-warning">
+            Something went wrong. Please try again.
+          </div>
+
+          <div class="message-success">
+            Your message was sent, thank you!<br />
+          </div>
+        </div>
+        <div class="contact-secondary">
+          <div class="contact-info">
+            <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+            <div class="cinfo">
+              <h5>Where to Find Us</h5>
+              <p>
+                Suite 36 Swissgarde Plaza, <br />
+                450 Ogui Road, Enugu <br />
+                Nigeria
+              </p>
+            </div>
+            <div class="cinfo">
+              <h5>Email Us At</h5>
+              <p>
+                <a
+                  href="mailto:hello@wonestack.com?subject=Hi Wonestack&amp;body=Hi there,"
+                  class="__cf_email__"
+                  target="_blank"
+                  rel="noopener"
+                  >hello@wonestack.com</a
+                >
+              </p>
+            </div>
+            <div class="cinfo">
+              <h5>Call Us At</h5>
+              <p>
+                Mobile: (+234) 813 155 7933<br />
+                Mobile: (+234) 816 290 0764<br />
+                Phone: (+234) 703 473 9329
+              </p>
+            </div>
+            <ul class="contact-social">
+              <li>
+                <a href="https://github.com/wonestack"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/wonestack"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://instagram.com/wonestack"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://facebook.com/wonestack"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
